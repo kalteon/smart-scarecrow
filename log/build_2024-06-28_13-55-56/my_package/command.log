@@ -1,0 +1,2 @@
+Invoking command in '/home/suho/final/build/my_package': /usr/bin/cmake /home/suho/final -DCMAKE_INSTALL_PREFIX=/home/suho/final/install/my_package
+Invoked command in '/home/suho/final/build/my_package' returned '1': /usr/bin/cmake /home/suho/final -DCMAKE_INSTALL_PREFIX=/home/suho/final/install/my_package

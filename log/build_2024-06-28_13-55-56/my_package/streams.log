@@ -1,0 +1,21 @@
+[1.800s] Invoking command in '/home/suho/final/build/my_package': /usr/bin/cmake /home/suho/final -DCMAKE_INSTALL_PREFIX=/home/suho/final/install/my_package
+[1.942s] -- Configuring incomplete, errors occurred!
+[1.943s] See also "/home/suho/final/build/my_package/CMakeFiles/CMakeOutput.log".
+[1.986s] CMake Error at CMakeLists.txt:4 (find_package):
+[2.042s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.042s]   has asked CMake to find a package configuration file provided by
+[2.042s]   "ament_cmake", but CMake did not find one.
+[2.043s] 
+[2.043s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.043s]   any of the following names:
+[2.044s] 
+[2.044s]     ament_cmakeConfig.cmake
+[2.044s]     ament_cmake-config.cmake
+[2.045s] 
+[2.045s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.045s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.046s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.046s]   has been installed.
+[2.058s] 
+[2.059s] 
+[2.059s] Invoked command in '/home/suho/final/build/my_package' returned '1': /usr/bin/cmake /home/suho/final -DCMAKE_INSTALL_PREFIX=/home/suho/final/install/my_package

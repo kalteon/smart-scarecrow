@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.009154] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.023217] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.093208] (-) TimerEvent: {}
+[0.206213] (-) TimerEvent: {}
+[0.366274] (-) TimerEvent: {}
+[0.507442] (-) TimerEvent: {}
+[0.629613] (-) TimerEvent: {}
+[0.751976] (-) TimerEvent: {}
+[0.858423] (-) TimerEvent: {}
+[0.968083] (-) TimerEvent: {}
+[1.186128] (-) TimerEvent: {}
+[1.309874] (-) TimerEvent: {}
+[1.500432] (-) TimerEvent: {}
+[1.658282] (-) TimerEvent: {}
+[1.791047] (-) TimerEvent: {}
+[2.038992] (-) TimerEvent: {}
+[2.141877] (-) TimerEvent: {}
+[2.342543] (-) TimerEvent: {}
+[2.502555] (-) TimerEvent: {}
+[2.614529] (-) TimerEvent: {}
+[2.719447] (-) TimerEvent: {}
+[2.829528] (-) TimerEvent: {}
+[2.938734] (-) TimerEvent: {}
+[3.044653] (-) TimerEvent: {}
+[3.163785] (-) TimerEvent: {}
+[3.280937] (-) TimerEvent: {}
+[3.397505] (-) TimerEvent: {}
+[3.554682] (-) TimerEvent: {}
+[3.777575] (-) TimerEvent: {}
+[3.908014] (-) TimerEvent: {}
+[4.069728] (-) TimerEvent: {}
+[4.193628] (-) TimerEvent: {}
+[4.320654] (-) TimerEvent: {}
+[4.460868] (-) TimerEvent: {}
+[4.664728] (-) TimerEvent: {}
+[4.783832] (-) TimerEvent: {}
+[4.887703] (-) TimerEvent: {}
+[4.991591] (-) TimerEvent: {}
+[5.094401] (-) TimerEvent: {}
+[5.199688] (-) TimerEvent: {}
+[5.301250] (-) TimerEvent: {}
+[5.406479] (-) TimerEvent: {}
+[5.507931] (-) TimerEvent: {}
+[5.614721] (-) TimerEvent: {}
+[5.726715] (-) TimerEvent: {}
+[5.834790] (-) TimerEvent: {}
+[5.939124] (-) TimerEvent: {}
+[6.046857] (-) TimerEvent: {}
+[6.159102] (-) TimerEvent: {}
+[6.303532] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/my_package', 'build', '--build-base', '/home/suho/final/build/my_package/build', 'install', '--record', '/home/suho/final/build/my_package/install.log', '--install-scripts', '$base/lib/my_package', '--single-version-externally-managed'], 'cwd': '/home/suho/final/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'suho', 'SSH_CLIENT': '192.168.56.1 51031 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/suho/gcamp_ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/suho', 'OLDPWD': '/home/suho/.vscode-server', 'TERM_PROGRAM_VERSION': '1.90.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d44c28f1-a569-493c-8dae-4ec3ddb23440.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/suho/gcamp_ros2_ws', 'COLCON_PREFIX_PATH': '/home/suho/gcamp_ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'suho', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/remote-cli:/home/suho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d6995f7158.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/suho/gcamp_ros2_ws/install/turtlesim:/home/suho/gcamp_ros2_ws/install/gcamp_gazebo:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/suho/final/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.56.1 51031 192.168.56.101 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:/home/suho/gcamp_ros2_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/suho/gcamp_ros2_ws/install/turtlesim:/home/suho/gcamp_ros2_ws/install/gcamp_gazebo'}, 'shell': False}
+[6.322696] (-) TimerEvent: {}
+[6.430270] (-) TimerEvent: {}
+[6.584277] (-) TimerEvent: {}
+[6.697033] (-) TimerEvent: {}
+[6.803774] (-) TimerEvent: {}
+[6.907527] (-) TimerEvent: {}
+[7.032932] (-) TimerEvent: {}
+[7.146928] (-) TimerEvent: {}
+[7.359652] (-) TimerEvent: {}
+[7.488547] (-) TimerEvent: {}
+[7.546962] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[7.582939] (my_package) StdoutLine: {'line': b'writing ../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[7.590482] (-) TimerEvent: {}
+[7.622020] (my_package) StdoutLine: {'line': b'writing dependency_links to ../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[7.622525] (my_package) StdoutLine: {'line': b'writing entry points to ../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[7.622697] (my_package) StdoutLine: {'line': b'writing requirements to ../build/my_package/my_package.egg-info/requires.txt\n'}
+[7.635733] (my_package) StdoutLine: {'line': b'writing top-level names to ../build/my_package/my_package.egg-info/top_level.txt\n'}
+[7.700108] (-) TimerEvent: {}
+[7.839873] (-) TimerEvent: {}
+[7.979777] (-) TimerEvent: {}
+[8.028835] (my_package) StdoutLine: {'line': b"reading manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[8.049294] (my_package) StdoutLine: {'line': b"writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[8.054512] (my_package) StdoutLine: {'line': b'running build\n'}
+[8.055287] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[8.055507] (my_package) StdoutLine: {'line': b'copying my_package/my_node.py -> /home/suho/final/build/my_package/build/lib/my_package\n'}
+[8.055699] (my_package) StdoutLine: {'line': b'copying my_package/motor_node.py -> /home/suho/final/build/my_package/build/lib/my_package\n'}
+[8.073293] (my_package) StdoutLine: {'line': b'copying my_package/sensor_node.py -> /home/suho/final/build/my_package/build/lib/my_package\n'}
+[8.073924] (my_package) StdoutLine: {'line': b'copying my_package/monitor_node.py -> /home/suho/final/build/my_package/build/lib/my_package\n'}
+[8.074466] (my_package) StdoutLine: {'line': b'copying my_package/control_node.py -> /home/suho/final/build/my_package/build/lib/my_package\n'}
+[8.082714] (my_package) StdoutLine: {'line': b'running install\n'}
+[8.095597] (-) TimerEvent: {}
+[8.097274] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[8.111061] (my_package) StdoutLine: {'line': b'copying /home/suho/final/build/my_package/build/lib/my_package/my_node.py -> /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[8.111630] (my_package) StdoutLine: {'line': b'copying /home/suho/final/build/my_package/build/lib/my_package/motor_node.py -> /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[8.111902] (my_package) StdoutLine: {'line': b'copying /home/suho/final/build/my_package/build/lib/my_package/sensor_node.py -> /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[8.112106] (my_package) StdoutLine: {'line': b'copying /home/suho/final/build/my_package/build/lib/my_package/monitor_node.py -> /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[8.112290] (my_package) StdoutLine: {'line': b'copying /home/suho/final/build/my_package/build/lib/my_package/control_node.py -> /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[8.112553] (my_package) StdoutLine: {'line': b'byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/my_node.py to my_node.cpython-38.pyc\n'}
+[8.114722] (my_package) StdoutLine: {'line': b'byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/motor_node.py to motor_node.cpython-38.pyc\n'}
+[8.127695] (my_package) StdoutLine: {'line': b'byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/sensor_node.py to sensor_node.cpython-38.pyc\n'}
+[8.128239] (my_package) StderrLine: {'line': b'  File "/home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/control_node.py", line 27\n'}
+[8.128990] (my_package) StderrLine: {'line': b'    \n'}
+[8.129260] (my_package) StderrLine: {'line': b'    ^\n'}
+[8.129407] (my_package) StderrLine: {'line': b'SyntaxError: unexpected EOF while parsing\n'}
+[8.129533] (my_package) StderrLine: {'line': b'\n'}
+[8.129654] (my_package) StdoutLine: {'line': b'byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/monitor_node.py to monitor_node.cpython-38.pyc\n'}
+[8.129790] (my_package) StdoutLine: {'line': b'byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/control_node.py to control_node.cpython-38.pyc\n'}
+[8.129916] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[8.130041] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.131120] (my_package) StdoutLine: {'line': b"removing '/home/suho/final/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.131798] (my_package) StdoutLine: {'line': b'Copying ../build/my_package/my_package.egg-info to /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[8.132008] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[8.268615] (my_package) StdoutLine: {'line': b'Installing control_node script to /home/suho/final/install/my_package/lib/my_package\n'}
+[8.269038] (-) TimerEvent: {}
+[8.274092] (my_package) StdoutLine: {'line': b'Installing monitor_node script to /home/suho/final/install/my_package/lib/my_package\n'}
+[8.274748] (my_package) StdoutLine: {'line': b'Installing motor_node script to /home/suho/final/install/my_package/lib/my_package\n'}
+[8.275136] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/suho/final/install/my_package/lib/my_package\n'}
+[8.275422] (my_package) StdoutLine: {'line': b'Installing sensor_node script to /home/suho/final/install/my_package/lib/my_package\n'}
+[8.275694] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/suho/final/build/my_package/install.log'\n"}
+[8.363902] (my_package) CommandEnded: {'returncode': 0}
+[8.580062] (-) TimerEvent: {}
+[8.747055] (-) TimerEvent: {}
+[9.051035] (-) TimerEvent: {}
+[9.199335] (-) TimerEvent: {}
+[9.333440] (-) TimerEvent: {}
+[9.447487] (-) TimerEvent: {}
+[9.625476] (-) TimerEvent: {}
+[9.786017] (-) TimerEvent: {}
+[9.960785] (-) TimerEvent: {}
+[10.159564] (-) TimerEvent: {}
+[10.238777] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[10.259005] (-) EventReactorShutdown: {}

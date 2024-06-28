@@ -1,0 +1,34 @@
+[7.434s] Invoking command in '/home/suho/final/my_package': PYTHONPATH=/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/suho/final/build/my_package/build install --record /home/suho/final/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[8.289s] running egg_info
+[8.345s] writing ../build/my_package/my_package.egg-info/PKG-INFO
+[8.346s] writing dependency_links to ../build/my_package/my_package.egg-info/dependency_links.txt
+[8.346s] writing entry points to ../build/my_package/my_package.egg-info/entry_points.txt
+[8.399s] writing requirements to ../build/my_package/my_package.egg-info/requires.txt
+[8.400s] writing top-level names to ../build/my_package/my_package.egg-info/top_level.txt
+[8.568s] reading manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[8.589s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[8.591s] running build
+[8.591s] running build_py
+[8.592s] copying my_package/my_node.py -> /home/suho/final/build/my_package/build/lib/my_package
+[8.594s] running install
+[8.595s] running install_lib
+[8.596s] copying /home/suho/final/build/my_package/build/lib/my_package/my_node.py -> /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package
+[8.596s] byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/my_node.py to my_node.cpython-38.pyc
+[8.668s] byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/control_node.py to control_node.cpython-38.pyc
+[8.668s] running install_data
+[8.668s] running install_egg_info
+[8.669s] removing '/home/suho/final/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[8.669s]   File "/home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/control_node.py", line 27
+[8.669s]     
+[8.669s]     ^
+[8.669s] SyntaxError: unexpected EOF while parsing
+[8.669s] 
+[8.669s] Copying ../build/my_package/my_package.egg-info to /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[8.670s] running install_scripts
+[8.711s] Installing control_node script to /home/suho/final/install/my_package/lib/my_package
+[8.717s] Installing monitor_node script to /home/suho/final/install/my_package/lib/my_package
+[8.806s] Installing motor_node script to /home/suho/final/install/my_package/lib/my_package
+[8.807s] Installing my_node script to /home/suho/final/install/my_package/lib/my_package
+[8.807s] Installing sensor_node script to /home/suho/final/install/my_package/lib/my_package
+[8.812s] writing list of installed files to '/home/suho/final/build/my_package/install.log'
+[9.089s] Invoked command in '/home/suho/final/my_package' returned '0': PYTHONPATH=/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/suho/final/build/my_package/build install --record /home/suho/final/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed

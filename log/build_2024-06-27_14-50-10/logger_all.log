@@ -1,0 +1,113 @@
+[38.545s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'my_package']
+[38.545s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0b63e4e580>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['my_package'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0b63e4e580>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0b63a20700>)
+[39.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[39.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[39.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[39.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[39.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[39.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[39.969s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/suho/final'
+[39.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[39.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[39.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[39.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[39.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[39.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[39.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[39.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[39.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[40.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[40.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[40.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[40.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[40.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[40.026s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[40.027s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[40.027s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[40.027s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[40.027s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[40.027s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[40.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[40.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[40.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ignore', 'ignore_ament_install']
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore'
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore_ament_install'
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_pkg']
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_pkg'
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_meta']
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_meta'
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ros']
+[40.028s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ros'
+[40.032s] DEBUG:colcon.colcon_core.package_identification:Package 'my_package' with type 'ros.ament_python' and name 'my_package'
+[40.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[40.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[40.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[40.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[40.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[43.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[43.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[44.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/suho/gcamp_ros2_ws/install
+[44.901s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 307 installed packages in /opt/ros/foxy
+[44.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[46.747s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[46.752s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[46.752s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[46.752s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[46.752s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[46.752s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[46.752s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[46.752s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[46.752s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[46.752s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suho/final/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suho/final/install/my_package', 'merge_install': False, 'path': '/home/suho/final/my_package', 'symlink_install': False, 'test_result_base': None}
+[47.334s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[47.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[47.984s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/suho/final/my_package' with build type 'ament_python'
+[47.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[49.052s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[49.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suho/final/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[49.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suho/final/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[49.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suho/final/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[49.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[49.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.187s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/suho/final/my_package'
+[56.343s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[56.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[65.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suho/final/my_package': PYTHONPATH=/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/suho/final/build/my_package/build install --record /home/suho/final/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[68.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suho/final/my_package' returned '0': PYTHONPATH=/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/suho/final/build/my_package/build install --record /home/suho/final/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[70.291s] Level 1:colcon.colcon_core.environment:checking '/home/suho/final/install/my_package' for CMake module files
+[70.299s] Level 1:colcon.colcon_core.environment:checking '/home/suho/final/install/my_package' for CMake config files
+[70.301s] Level 1:colcon.colcon_core.environment:checking '/home/suho/final/install/my_package/lib'
+[70.301s] Level 1:colcon.colcon_core.environment:checking '/home/suho/final/install/my_package/bin'
+[70.302s] Level 1:colcon.colcon_core.environment:checking '/home/suho/final/install/my_package/lib/pkgconfig/my_package.pc'
+[70.302s] Level 1:colcon.colcon_core.environment:checking '/home/suho/final/install/my_package/lib/python3.8/site-packages'
+[70.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[71.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suho/final/install/my_package/share/my_package/hook/pythonpath.ps1'
+[71.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suho/final/install/my_package/share/my_package/hook/pythonpath.dsv'
+[71.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suho/final/install/my_package/share/my_package/hook/pythonpath.sh'
+[72.006s] Level 1:colcon.colcon_core.environment:checking '/home/suho/final/install/my_package/bin'
+[72.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[73.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/suho/final/install/my_package/share/my_package/package.ps1'
+[73.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suho/final/install/my_package/share/my_package/package.dsv'
+[73.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/suho/final/install/my_package/share/my_package/package.sh'
+[73.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/suho/final/install/my_package/share/my_package/package.bash'
+[73.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/suho/final/install/my_package/share/my_package/package.zsh'
+[73.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suho/final/install/my_package/share/colcon-core/packages/my_package)
+[73.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[73.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[73.889s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[73.890s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[75.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[75.016s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[75.016s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[75.381s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[76.515s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suho/final/install/local_setup.ps1'
+[76.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suho/final/install/_local_setup_util_ps1.py'
+[76.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suho/final/install/setup.ps1'
+[77.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suho/final/install/local_setup.sh'
+[77.528s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suho/final/install/_local_setup_util_sh.py'
+[77.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suho/final/install/setup.sh'
+[78.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suho/final/install/local_setup.bash'
+[78.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suho/final/install/setup.bash'
+[79.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suho/final/install/local_setup.zsh'
+[79.674s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suho/final/install/setup.zsh'

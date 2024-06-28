@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000832] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.121979] (-) TimerEvent: {}
+[0.583170] (-) TimerEvent: {}
+[0.783355] (-) TimerEvent: {}
+[0.898023] (-) TimerEvent: {}
+[1.034992] (-) TimerEvent: {}
+[1.157408] (-) TimerEvent: {}
+[1.316775] (-) TimerEvent: {}
+[1.655429] (-) TimerEvent: {}
+[1.916230] (-) TimerEvent: {}
+[2.071676] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[2.071969] (-) TimerEvent: {}
+[2.100551] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/suho/final', '-DCMAKE_INSTALL_PREFIX=/home/suho/final/install/my_package'], 'cwd': '/home/suho/final/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suho'), ('SSH_CLIENT', '192.168.56.1 50218 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/suho'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-faf930b1-3653-4a68-ad89-376b97f64bff.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/suho/gcamp_ros2_ws'), ('LOGNAME', 'suho'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('PATH', '/home/suho/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/remote-cli:/home/suho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d6995f7158.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/suho/final/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.56.1 50218 192.168.56.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[2.201548] (-) TimerEvent: {}
+[2.391795] (-) TimerEvent: {}
+[2.537210] (-) TimerEvent: {}
+[2.652856] (-) TimerEvent: {}
+[2.775801] (-) TimerEvent: {}
+[2.897713] (-) TimerEvent: {}
+[3.024712] (-) TimerEvent: {}
+[3.140095] (-) TimerEvent: {}
+[3.247366] (-) TimerEvent: {}
+[3.382127] (-) TimerEvent: {}
+[3.496214] (-) TimerEvent: {}
+[3.597779] (-) TimerEvent: {}
+[3.716638] (-) TimerEvent: {}
+[3.832856] (-) TimerEvent: {}
+[3.945585] (-) TimerEvent: {}
+[4.115343] (-) TimerEvent: {}
+[4.218841] (-) TimerEvent: {}
+[4.320610] (-) TimerEvent: {}
+[4.461274] (-) TimerEvent: {}
+[4.608272] (-) TimerEvent: {}
+[4.713643] (-) TimerEvent: {}
+[4.890751] (-) TimerEvent: {}
+[4.995294] (-) TimerEvent: {}
+[5.121355] (-) TimerEvent: {}
+[5.227775] (-) TimerEvent: {}
+[5.356115] (-) TimerEvent: {}
+[5.477857] (-) TimerEvent: {}
+[5.619017] (-) TimerEvent: {}
+[5.758812] (-) TimerEvent: {}
+[5.878609] (-) TimerEvent: {}
+[6.033368] (-) TimerEvent: {}
+[6.143463] (-) TimerEvent: {}
+[6.269493] (-) TimerEvent: {}
+[6.398065] (-) TimerEvent: {}
+[6.512473] (-) TimerEvent: {}
+[6.630611] (-) TimerEvent: {}
+[6.761814] (-) TimerEvent: {}
+[6.886903] (-) TimerEvent: {}
+[7.026975] (-) TimerEvent: {}
+[7.134357] (-) TimerEvent: {}
+[7.267744] (-) TimerEvent: {}
+[7.385541] (-) TimerEvent: {}
+[7.493649] (-) TimerEvent: {}
+[7.627402] (-) TimerEvent: {}
+[7.773878] (-) TimerEvent: {}
+[7.902275] (-) TimerEvent: {}
+[8.049671] (-) TimerEvent: {}
+[8.196099] (-) TimerEvent: {}
+[8.326078] (-) TimerEvent: {}
+[8.439341] (-) TimerEvent: {}
+[8.593155] (-) TimerEvent: {}
+[8.700957] (-) TimerEvent: {}
+[8.803129] (-) TimerEvent: {}
+[8.930382] (-) TimerEvent: {}
+[9.062788] (-) TimerEvent: {}
+[9.168356] (-) TimerEvent: {}
+[9.282900] (-) TimerEvent: {}
+[9.392937] (-) TimerEvent: {}
+[9.569913] (-) TimerEvent: {}
+[9.691140] (-) TimerEvent: {}
+[9.816362] (-) TimerEvent: {}
+[9.946564] (-) TimerEvent: {}
+[10.061186] (-) TimerEvent: {}
+[10.185419] (-) TimerEvent: {}
+[10.332489] (-) TimerEvent: {}
+[10.515208] (-) TimerEvent: {}
+[10.623542] (-) TimerEvent: {}
+[10.753591] (-) TimerEvent: {}
+[10.982317] (-) TimerEvent: {}
+[11.108243] (-) TimerEvent: {}
+[11.241899] (-) TimerEvent: {}
+[11.349401] (-) TimerEvent: {}
+[11.485611] (-) TimerEvent: {}
+[11.616724] (-) TimerEvent: {}
+[11.725131] (-) TimerEvent: {}
+[11.846961] (-) TimerEvent: {}
+[11.963341] (-) TimerEvent: {}
+[12.106769] (-) TimerEvent: {}
+[12.247797] (-) TimerEvent: {}
+[12.409683] (-) TimerEvent: {}
+[12.513829] (-) TimerEvent: {}
+[12.715914] (-) TimerEvent: {}
+[12.830110] (-) TimerEvent: {}
+[12.932227] (-) TimerEvent: {}
+[13.045786] (-) TimerEvent: {}
+[13.153451] (-) TimerEvent: {}
+[13.263590] (-) TimerEvent: {}
+[13.373511] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[13.374125] (-) TimerEvent: {}
+[13.495111] (-) TimerEvent: {}
+[13.609852] (-) TimerEvent: {}
+[13.739648] (-) TimerEvent: {}
+[13.868775] (-) TimerEvent: {}
+[13.985990] (-) TimerEvent: {}
+[14.113326] (-) TimerEvent: {}
+[14.260939] (-) TimerEvent: {}
+[14.407909] (-) TimerEvent: {}
+[14.557627] (-) TimerEvent: {}
+[14.679001] (-) TimerEvent: {}
+[14.786421] (-) TimerEvent: {}
+[14.904377] (-) TimerEvent: {}
+[15.026003] (-) TimerEvent: {}
+[15.190167] (-) TimerEvent: {}
+[15.301374] (-) TimerEvent: {}
+[15.446687] (-) TimerEvent: {}
+[15.643090] (-) TimerEvent: {}
+[15.794956] (-) TimerEvent: {}
+[15.908479] (-) TimerEvent: {}
+[16.016551] (-) TimerEvent: {}
+[16.146670] (-) TimerEvent: {}
+[16.290709] (-) TimerEvent: {}
+[16.412824] (-) TimerEvent: {}
+[16.533525] (-) TimerEvent: {}
+[16.696660] (-) TimerEvent: {}
+[16.841312] (-) TimerEvent: {}
+[16.971001] (-) TimerEvent: {}
+[17.091516] (-) TimerEvent: {}
+[17.208697] (-) TimerEvent: {}
+[17.316124] (-) TimerEvent: {}
+[17.438847] (-) TimerEvent: {}
+[17.549275] (-) TimerEvent: {}
+[17.669896] (-) TimerEvent: {}
+[17.859406] (-) TimerEvent: {}
+[17.967491] (-) TimerEvent: {}
+[18.079619] (-) TimerEvent: {}
+[18.236178] (-) TimerEvent: {}
+[18.345812] (-) TimerEvent: {}
+[18.483289] (-) TimerEvent: {}
+[18.605732] (-) TimerEvent: {}
+[18.907978] (-) TimerEvent: {}
+[19.022482] (-) TimerEvent: {}
+[19.156645] (-) TimerEvent: {}
+[19.263864] (-) TimerEvent: {}
+[19.366285] (-) TimerEvent: {}
+[19.468252] (-) TimerEvent: {}
+[19.579983] (-) TimerEvent: {}
+[19.695969] (-) TimerEvent: {}
+[19.841087] (-) TimerEvent: {}
+[19.962689] (-) TimerEvent: {}
+[20.070252] (-) TimerEvent: {}
+[20.180129] (-) TimerEvent: {}
+[20.284740] (-) TimerEvent: {}
+[20.408595] (-) TimerEvent: {}
+[20.516688] (-) TimerEvent: {}
+[20.522554] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[20.645466] (-) TimerEvent: {}
+[20.773900] (-) TimerEvent: {}
+[20.900573] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[20.901055] (-) TimerEvent: {}
+[21.013141] (-) TimerEvent: {}
+[21.114246] (-) TimerEvent: {}
+[21.234386] (-) TimerEvent: {}
+[21.367646] (-) TimerEvent: {}
+[21.492398] (-) TimerEvent: {}
+[21.600447] (-) TimerEvent: {}
+[21.716897] (-) TimerEvent: {}
+[21.833207] (-) TimerEvent: {}
+[21.936297] (-) TimerEvent: {}
+[22.011469] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[22.069195] (-) TimerEvent: {}
+[22.116895] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[22.170094] (-) TimerEvent: {}
+[22.278365] (-) TimerEvent: {}
+[22.382560] (-) TimerEvent: {}
+[22.515912] (-) TimerEvent: {}
+[22.579014] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[22.616578] (-) TimerEvent: {}
+[22.677815] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[22.685323] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[22.740440] (-) TimerEvent: {}
+[22.821305] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[22.844817] (-) TimerEvent: {}
+[22.950281] (-) TimerEvent: {}
+[23.076400] (-) TimerEvent: {}
+[23.177161] (-) TimerEvent: {}
+[23.299326] (-) TimerEvent: {}
+[23.419054] (-) TimerEvent: {}
+[23.545463] (-) TimerEvent: {}
+[23.645175] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[23.645756] (-) TimerEvent: {}
+[23.650055] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[23.774372] (-) TimerEvent: {}
+[23.876562] (-) TimerEvent: {}
+[23.987044] (-) TimerEvent: {}
+[24.089639] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[24.090236] (-) TimerEvent: {}
+[24.203349] (-) TimerEvent: {}
+[24.230281] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[24.243178] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[24.329903] (-) TimerEvent: {}
+[24.378365] (my_package) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (find_package):\n'}
+[24.386900] (my_package) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[24.387328] (my_package) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[24.387749] (my_package) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[24.388100] (my_package) StderrLine: {'line': b'\n'}
+[24.389038] (my_package) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[24.389304] (my_package) StderrLine: {'line': b'  any of the following names:\n'}
+[24.389647] (my_package) StderrLine: {'line': b'\n'}
+[24.389924] (my_package) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[24.390144] (my_package) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[24.390349] (my_package) StderrLine: {'line': b'\n'}
+[24.390753] (my_package) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[24.391603] (my_package) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[24.391973] (my_package) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[24.392277] (my_package) StderrLine: {'line': b'  has been installed.\n'}
+[24.392598] (my_package) StderrLine: {'line': b'\n'}
+[24.392796] (my_package) StderrLine: {'line': b'\n'}
+[24.392974] (my_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[24.393176] (my_package) StdoutLine: {'line': b'See also "/home/suho/final/build/my_package/CMakeFiles/CMakeOutput.log".\n'}
+[24.421790] (my_package) CommandEnded: {'returncode': 1}
+[24.428515] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 1}
+[24.495586] (-) TimerEvent: {}
+[24.528694] (-) EventReactorShutdown: {}

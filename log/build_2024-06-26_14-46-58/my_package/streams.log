@@ -1,0 +1,22 @@
+[8.424s] Invoking command in '/home/suho/final/my_package': PYTHONPATH=/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/suho/final/build/my_package/build install --record /home/suho/final/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[9.651s] running egg_info
+[9.755s] writing ../build/my_package/my_package.egg-info/PKG-INFO
+[9.757s] writing dependency_links to ../build/my_package/my_package.egg-info/dependency_links.txt
+[9.759s] writing entry points to ../build/my_package/my_package.egg-info/entry_points.txt
+[9.763s] writing requirements to ../build/my_package/my_package.egg-info/requires.txt
+[9.770s] writing top-level names to ../build/my_package/my_package.egg-info/top_level.txt
+[9.903s] reading manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.915s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.915s] running build
+[9.915s] running build_py
+[9.916s] running install
+[9.954s] running install_lib
+[10.012s] running install_data
+[10.012s] running install_egg_info
+[10.060s] removing '/home/suho/final/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[10.074s] Copying ../build/my_package/my_package.egg-info to /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[10.079s] running install_scripts
+[10.117s] Installing my_node script to /home/suho/final/install/my_package/lib/my_package
+[10.182s] Installing sensor_node script to /home/suho/final/install/my_package/lib/my_package
+[10.190s] writing list of installed files to '/home/suho/final/build/my_package/install.log'
+[10.556s] Invoked command in '/home/suho/final/my_package' returned '0': PYTHONPATH=/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/suho/final/build/my_package/build install --record /home/suho/final/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed

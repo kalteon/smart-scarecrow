@@ -1,0 +1,35 @@
+[2.103s] Invoking command in '/home/suho/final/build/my_package': /usr/bin/cmake /home/suho/final -DCMAKE_INSTALL_PREFIX=/home/suho/final/install/my_package
+[13.373s] -- The C compiler identification is GNU 9.4.0
+[20.522s] -- The CXX compiler identification is GNU 9.4.0
+[20.900s] -- Check for working C compiler: /usr/bin/cc
+[22.011s] -- Check for working C compiler: /usr/bin/cc -- works
+[22.116s] -- Detecting C compiler ABI info
+[22.578s] -- Detecting C compiler ABI info - done
+[22.677s] -- Detecting C compile features
+[22.685s] -- Detecting C compile features - done
+[22.821s] -- Check for working CXX compiler: /usr/bin/c++
+[23.645s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[23.650s] -- Detecting CXX compiler ABI info
+[24.089s] -- Detecting CXX compiler ABI info - done
+[24.242s] -- Detecting CXX compile features
+[24.243s] -- Detecting CXX compile features - done
+[24.386s] CMake Error at CMakeLists.txt:4 (find_package):
+[24.386s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[24.387s]   has asked CMake to find a package configuration file provided by
+[24.387s]   "ament_cmake", but CMake did not find one.
+[24.388s] 
+[24.388s]   Could not find a package configuration file provided by "ament_cmake" with
+[24.389s]   any of the following names:
+[24.389s] 
+[24.389s]     ament_cmakeConfig.cmake
+[24.389s]     ament_cmake-config.cmake
+[24.390s] 
+[24.390s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[24.391s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[24.391s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[24.392s]   has been installed.
+[24.392s] 
+[24.392s] 
+[24.392s] -- Configuring incomplete, errors occurred!
+[24.392s] See also "/home/suho/final/build/my_package/CMakeFiles/CMakeOutput.log".
+[24.427s] Invoked command in '/home/suho/final/build/my_package' returned '1': /usr/bin/cmake /home/suho/final -DCMAKE_INSTALL_PREFIX=/home/suho/final/install/my_package

@@ -1,0 +1,31 @@
+[4.667s] Invoking command in '/home/suho/final/my_package': PYTHONPATH=/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/suho/final/build/my_package/build install --record /home/suho/final/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[5.364s] running egg_info
+[5.372s] writing ../build/my_package/my_package.egg-info/PKG-INFO
+[5.401s] writing dependency_links to ../build/my_package/my_package.egg-info/dependency_links.txt
+[5.401s] writing entry points to ../build/my_package/my_package.egg-info/entry_points.txt
+[5.429s] writing requirements to ../build/my_package/my_package.egg-info/requires.txt
+[5.429s] writing top-level names to ../build/my_package/my_package.egg-info/top_level.txt
+[5.548s] reading manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[5.563s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[5.567s] running build
+[5.568s] running build_py
+[5.568s] copying my_package/sensor_node.py -> /home/suho/final/build/my_package/build/lib/my_package
+[5.569s] copying my_package/control_node.py -> /home/suho/final/build/my_package/build/lib/my_package
+[5.569s] running install
+[5.571s] running install_lib
+[5.574s] copying /home/suho/final/build/my_package/build/lib/my_package/sensor_node.py -> /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package
+[5.643s] copying /home/suho/final/build/my_package/build/lib/my_package/control_node.py -> /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package
+[5.644s] byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/sensor_node.py to sensor_node.cpython-38.pyc
+[5.644s] byte-compiling /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package/control_node.py to control_node.cpython-38.pyc
+[5.650s] running install_data
+[5.650s] running install_egg_info
+[5.683s] removing '/home/suho/final/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[5.684s] Copying ../build/my_package/my_package.egg-info to /home/suho/final/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[5.740s] running install_scripts
+[5.828s] Installing control_node script to /home/suho/final/install/my_package/lib/my_package
+[5.828s] Installing flask_node script to /home/suho/final/install/my_package/lib/my_package
+[5.829s] Installing monitor_node script to /home/suho/final/install/my_package/lib/my_package
+[5.840s] Installing motor_node script to /home/suho/final/install/my_package/lib/my_package
+[5.840s] Installing sensor_node script to /home/suho/final/install/my_package/lib/my_package
+[5.919s] writing list of installed files to '/home/suho/final/build/my_package/install.log'
+[6.053s] Invoked command in '/home/suho/final/my_package' returned '0': PYTHONPATH=/home/suho/final/build/my_package/prefix_override:/home/suho/final/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/suho/final/build/my_package/build install --record /home/suho/final/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed

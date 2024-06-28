@@ -1,0 +1,7 @@
+[console_scripts]
+control_node = my_package.control_node:main
+flask_node = my_package.flask_node:main
+monitor_node = my_package.monitor_node:main
+motor_node = my_package.motor_node:main
+sensor_node = my_package.sensor_node:main
+
